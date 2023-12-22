@@ -17,7 +17,7 @@ function GameLostModal({ open }) {
     >
       <div className="grid gap-y-2">
         <p className="text-lg font-[500] text-center">
-          Better luck next time. The correct answers are below.
+          Better luck next Christmas. The correct answers are below.
         </p>
         {gameData.map((obj) => (
           <SolvedWordRow key={obj.category} {...obj} />

@@ -11,7 +11,7 @@ function GameWonModal({ open, submittedGuesses }) {
 
   return (
     <BaseModal
-      title="You won the game!"
+      title="You won!! Happy Christmas!"
       initiallyOpen={open}
       footerElements={<ShareScoreButton />}
       showActionButton={false}

@@ -6,7 +6,7 @@ html {
   overflow-y: scroll;
 
   --game-spacing: 32px;
-  --header-height: 4rem;
+  --header-height: 6rem;
 
   --color-success: hsl(150deg 70% 30%);
   --color-warning: hsl(50deg 100% 30%);
@@ -39,9 +39,7 @@ body {
 
 header {
   display: flex;
-  height: var(--header-height);
-  border-bottom: 1px solid var(--color-gray-700);
-  color: var(--color-gray-300);
+  /*height: var(--header-height);*/
 }
 
 header .side {
@@ -73,7 +71,7 @@ h1 {
   padding-left: var(--game-spacing);
   padding-right: var(--game-spacing);
   margin: 0 auto;
-  min-width: max(300px, 55vh, 40%);
+  min-width: max(300px, 40%);
   max-width: min(500px, 58vh, 100%);
 }
 
