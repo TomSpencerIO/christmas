@@ -62,8 +62,8 @@ function Game() {
 
   return (
     <>
-      <h3 className="text-lg text-center mt-4 mb-4 md:max-w-3xl mx-auto px-4">
-        Each group is a clue to a present. There are {numCategories} groups with {categorySize} words each. When you get a group correct you can open the present! Happy Christmas Krystal! Like you lots, Tom 🥰
+      <h3 className="text-lg text-center mt-2 mb-2 md:max-w-3xl mx-auto px-4">
+        Each group is a clue to a present. There are {numCategories} groups with {categorySize} words each. When you get a group correct you can open the present. Happy Christmas Krystal! Like you lots, Tom 🥰 🥰 🥰
       </h3>
 
       <div className={`game-wrapper`}>
