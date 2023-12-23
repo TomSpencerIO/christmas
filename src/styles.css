@@ -5,7 +5,7 @@
 html {
   overflow-y: scroll;
 
-  --game-spacing: 32px;
+  --game-spacing: 16px;
   --header-height: 6rem;
 
   --color-success: hsl(150deg 70% 30%);
@@ -71,8 +71,9 @@ h1 {
   padding-left: var(--game-spacing);
   padding-right: var(--game-spacing);
   margin: 0 auto;
-  min-width: max(300px, 40%);
-  max-width: min(500px, 58vh, 100%);
+  min-width: max(400px, 50%);
+  max-width: min(600px, 100%);
+  margin-bottom: 12px;
 }
 
 .banner {
